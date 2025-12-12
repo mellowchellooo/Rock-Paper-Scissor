@@ -56,8 +56,15 @@ function playRound(humanChoice, computerChoice){
         console.log('LAHOOOO..SAAAHERRRR');
     }
 }
+/* this function takes two parameters. and gets the human choice to compare against
+one of three different choices the computer has.
+if the human writes rock paper or scissor, and the computer chose one of the options
+written the human wins and it logs the winner message on the screen.
+if its anything other than rock paper or scissor it console.logs loser like ace ventura says it. 
+**it will also write loser if you write anything other than rock paper or scissor. 
+*/
 
-let humanSelection = getHumanChoice();
-let computerSelection = getComputerChoice();
+let humanSelection = getHumanChoice(); /*assigns whatever the humanchoice was in this function to the variable"*/
+let computerSelection = getComputerChoice();/*assigns computerChoice to variable*/
 
-playRound(humanSelection, computerSelection);
+playRound(humanSelection, computerSelection);/*parameter taken were the variables that contain "answers" for the functions they are assigned*/
